@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Suez+One&display=swap');
+
+@media (min-width: 992px){
+    .navbar li {
+        margin-left : 1em;
+        margin-right : 1em;
+    }
+}
+
+.bg{
+    background-image: url("x.jpg");
+    background-color: rgb(249, 252, 252);    
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.scroll{
+overflow-y: auto;
+
+}
+
+  
+.vertical-center {
+    margin-top: 0;
+    position: absolute;
+    top: 100%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+h1{
+    
+    cursor: pointer;
+    color: #120ee0;
+    font-weight: bold;
+    text-align: center;
+    height: 70px;
+    margin-bottom: 0 !important;
+    border: 0 !important;
+    height: auto;
+    transform: 1s;
+    
+}
+
+
+
+
+.btn-button{
+    display: inline-block;
+    position: relative;
+    color: white;
+    background-color: black;
+
+}
+
+.btn-button:hover{
+    
+    background-color: white;
+    color: black;
+}
+
+.navbar{
+    margin-bottom: 0 !important;
+    border: 0 !important;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.right{
+    float:right;
+}
+
+.operations{
+    list-style: none;
+    /*border: 2px solid #fff;*/
+    font-size: 15px;
+    font-weight: bold;
+    margin: 30px;
+    border-radius: 15px;
+    font-family: arial;
+}
+
+.operations button{
+    text-decoration: none;
+    padding: 15px 35px;
+    display: block;
+    text-align: center;
+    box-shadow: #020405;
+}
+
+a{
+    text-decoration: none;
+}
+
+#options{
+    background-color: blue;
+    color: white;
+    border-radius: 40px;
+    width: 400px;
+    box-shadow: #020405;
+    text-decoration: none;
+}
+
+#options:hover{
+    background-color: cyan;
+    color: black;
+}
+
+
+a #container {
+    min-height:100%;
+    position:relative;
+ }
+ /*
+ #footer {
+    background-color:black;
+    padding:10px;
+    color: aliceblue;
+    height: auto;
+ }*/
+
+ #container #header{
+    background-color:#1e272e;
+    color: white;
+    text-align: center;
+    height: 50px;
+    margin-bottom: 0 !important;
+    border: 0 !important;
+    margin-bottom: 5px;
+ }
